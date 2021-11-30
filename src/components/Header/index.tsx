@@ -16,14 +16,14 @@ export const Header: React.FC = () => {
 
         <nav>
           <ul>
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">Pricing</a></li>
+            <li><a href="#link">Solutions</a></li>
+            <li><a href="#link">Resources</a></li>
+            <li><a href="#link">Pricing</a></li>
           </ul>
         </nav>
 
         <div>
-          <a>
+          <a href="#link">
             <img src={SpecialButton} alt="Special Conference" />
             <span>Special Conf</span>
           </a>
